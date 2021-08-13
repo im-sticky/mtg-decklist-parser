@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Decklist Tester</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .input {
+        width: 50%;
+      }
+
+      .output {
+        color: green;
+      }
+
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+      <div class="container">
+        <textarea class="input">
+Companion
+1 Jegantha, the Wellspring (IKO) 222
+
+Deck
+2 Cragcrown Pathway (ZNR) 261
+3 Stomping Ground (RNA) 259
+2 Claim the Firstborn (ELD) 118
+4 Overgrown Tomb (GRN) 253
+4 Gilded Goose (ELD) 160
+1 Scorching Dragonfire (ELD) 139
+4 Mayhem Devil (WAR) 204
+1 Phyrexian Tower (JMP) 493
+4 Trail of Crumbs (ELD) 179
+2 Woe Strider (THB) 123
+4 Witch's Oven (ELD) 237
+4 Blood Crypt (RNA) 245
+1 Darkbore Pathway (KHM) 254
+2 Swamp (ELD) 261
+4 Cauldron Familiar (ELD) 81
+4 Fabled Passage (M21) 246
+1 Mountain (ELD) 263
+2 Forest (ZNR) 280
+4 Korvold, Fae-Cursed King (ELD) 329
+1 Blightstep Pathway (KHM) 252
+2 Binding the Old Gods (KHM) 206
+2 Thoughtseize (AKR) 127
+2 Fatal Push (KLR) 84
+
+Sideboard
+2 Forced Landing (WAR) 161
+2 Klothys, God of Destiny (THB) 220
+2 Thoughtseize (AKR) 127
+1 Liliana's Defeat (AKR) 112
+1 Jegantha, the Wellspring (IKO) 222
+1 Binding the Old Gods (KHM) 206
+2 Soul-Guide Lantern (THB) 237
+2 Duress (M21) 96
+1 Fatal Push (KLR) 84
+1 Doom Blade (STA) 28
+</textarea>
+
+        <div class="output"></div>
+      </div>
+
+      <script src="./index.js"></script>
+      <script type="text/javascript">
+        function test(value) {
+          let result = decklist.parse(value);
+
+          document.querySelector('.output').innerHTML = result ? 'Parsed decklist successfully' : 'Could not parse decklist';
+          document.querySelector('.output').classList.toggle('error', !result);
+        }
+
+        document.querySelector('.input').addEventListener('change', e => test(e.target.value));
+        test(document.querySelector('.input').value);
+      </script>
+  </body>
+</html>
