@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NetDeckID>0</NetDeckID>
+  <PreconstructedDeckID>0</PreconstructedDeckID>
+  <Cards CatID="20015" Quantity="1" Sideboard="false" Name="Ancient Den" Annotation="0" />
+  <Cards CatID="85598" Quantity="1" Sideboard="false" Name="Arcane Denial" Annotation="0" />
+  <Cards CatID="31205" Quantity="1" Sideboard="false" Name="Arcane Sanctum" Annotation="0" />
+  <Cards CatID="78722" Quantity="1" Sideboard="false" Name="Arcane Signet" Annotation="0" />
+  <Cards CatID="72062" Quantity="1" Sideboard="false" Name="Ashiok, Dream Render" Annotation="0" />
+  <Cards CatID="24023" Quantity="1" Sideboard="false" Name="Azorius Signet" Annotation="0" />
+  <Cards CatID="72844" Quantity="1" Sideboard="false" Name="Barren Moor" Annotation="0" />
+  <Cards CatID="82498" Quantity="1" Sideboard="false" Name="Basalt Monolith" Annotation="0" />
+  <Cards CatID="44105" Quantity="1" Sideboard="false" Name="Blood Artist" Annotation="0" />
+  <Cards CatID="35515" Quantity="1" Sideboard="false" Name="Bojuka Bog" Annotation="0" />
+  <Cards CatID="71764" Quantity="1" Sideboard="false" Name="Bolas's Citadel" Annotation="0" />
+  <Cards CatID="41477" Quantity="1" Sideboard="false" Name="Buried Ruin" Annotation="0" />
+  <Cards CatID="57668" Quantity="1" Sideboard="false" Name="Caves of Koilos" Annotation="0" />
+  <Cards CatID="35639" Quantity="1" Sideboard="false" Name="Celestial Colonnade" Annotation="0" />
+  <Cards CatID="69879" Quantity="1" Sideboard="false" Name="Chromatic Lantern" Annotation="0" />
+  <Cards CatID="19301" Quantity="1" Sideboard="false" Name="City of Brass" Annotation="0" />
+  <Cards CatID="78726" Quantity="1" Sideboard="false" Name="Command Tower" Annotation="0" />
+  <Cards CatID="58796" Quantity="1" Sideboard="false" Name="Swamp" Annotation="0" />
+  <Cards CatID="35657" Quantity="1" Sideboard="false" Name="Creeping Tar Pit" Annotation="0" />
+  <Cards CatID="46733" Quantity="1" Sideboard="false" Name="Cyclonic Rift" Annotation="0" />
+  <Cards CatID="53774" Quantity="1" Sideboard="false" Name="Darksteel Citadel" Annotation="0" />
+  <Cards CatID="49587" Quantity="1" Sideboard="false" Name="Darksteel Forge" Annotation="0" />
+  <Cards CatID="80665" Quantity="1" Sideboard="false" Name="Deadly Rollick" Annotation="0" />
+  <Cards CatID="30410" Quantity="1" Sideboard="false" Name="Demonic Consultation" Annotation="0" />
+  <Cards CatID="89111" Quantity="1" Sideboard="false" Name="Demonic Tutor" Annotation="0" />
+  <Cards CatID="23562" Quantity="1" Sideboard="false" Name="Dimir Signet" Annotation="0" />
+  <Cards CatID="20203" Quantity="1" Sideboard="false" Name="Disciple of the Vault" Annotation="0" />
+  <Cards CatID="39862" Quantity="1" Sideboard="false" Name="Dispatch" Annotation="0" />
+  <Cards CatID="71992" Quantity="1" Sideboard="false" Name="Dovin's Veto" Annotation="0" />
+  <Cards CatID="61915" Quantity="1" Sideboard="false" Name="Dramatic Reversal" Annotation="0" />
+  <Cards CatID="35797" Quantity="1" Sideboard="false" Name="Dread Statuary" Annotation="0" />
+  <Cards CatID="20215" Quantity="1" Sideboard="false" Name="Duplicant" Annotation="0" />
+  <Cards CatID="31213" Quantity="1" Sideboard="false" Name="Etherium Sculptor" Annotation="0" />
+  <Cards CatID="30999" Quantity="1" Sideboard="false" Name="Ethersworn Canonist" Annotation="0" />
+  <Cards CatID="35681" Quantity="1" Sideboard="false" Name="Everflowing Chalice" Annotation="0" />
+  <Cards CatID="38325" Quantity="1" Sideboard="false" Name="Exsanguinate" Annotation="0" />
+  <Cards CatID="81719" Quantity="1" Sideboard="false" Name="Fabled Passage" Annotation="0" />
+  <Cards CatID="72472" Quantity="1" Sideboard="false" Name="Fact or Fiction" Annotation="0" />
+  <Cards CatID="83167" Quantity="1" Sideboard="false" Name="Feed the Swarm" Annotation="0" />
+  <Cards CatID="80651" Quantity="1" Sideboard="false" Name="Fierce Guardianship" Annotation="0" />
+  <Cards CatID="62095" Quantity="1" Sideboard="false" Name="Foundry Inspector" Annotation="0" />
+  <Cards CatID="88883" Quantity="1" Sideboard="false" Name="Fracture" Annotation="0" />
+  <Cards CatID="90875" Quantity="1" Sideboard="false" Name="Goldmire Bridge" Annotation="0" />
+  <Cards CatID="89885" Quantity="1" Sideboard="false" Name="Inkshield" Annotation="0" />
+  <Cards CatID="50276" Quantity="1" Sideboard="false" Name="Plains" Annotation="0" />
+  <Cards CatID="19665" Quantity="1" Sideboard="false" Name="Isochron Scepter" Annotation="0" />
+  <Cards CatID="35591" Quantity="1" Sideboard="false" Name="Jace, the Mind Sculptor" Annotation="0" />
+  <Cards CatID="38435" Quantity="1" Sideboard="false" Name="Kuldotha Forgemaster" Annotation="0" />
+  <Cards CatID="72856" Quantity="1" Sideboard="false" Name="Lonely Sandbar" Annotation="0" />
+  <Cards CatID="38191" Quantity="1" Sideboard="false" Name="Mimic Vat" Annotation="0" />
+  <Cards CatID="27044" Quantity="1" Sideboard="false" Name="Mind Stone" Annotation="0" />
+  <Cards CatID="91031" Quantity="1" Sideboard="false" Name="Mishra's Factory" Annotation="0" />
+  <Cards CatID="90879" Quantity="1" Sideboard="false" Name="Mistvault Bridge" Annotation="0" />
+  <Cards CatID="38307" Quantity="1" Sideboard="false" Name="Myr Battlesphere" Annotation="0" />
+  <Cards CatID="78640" Quantity="1" Sideboard="false" Name="Mystic Sanctuary" Annotation="0" />
+  <Cards CatID="71728" Quantity="1" Sideboard="false" Name="Narset, Parter of Veils" Annotation="0" />
+  <Cards CatID="66075" Quantity="1" Sideboard="false" Name="Necropotence" Annotation="0" />
+  <Cards CatID="91023" Quantity="1" Sideboard="false" Name="Nevinyrral's Disk" Annotation="0" />
+  <Cards CatID="23681" Quantity="1" Sideboard="false" Name="Orzhov Signet" Annotation="0" />
+  <Cards CatID="57581" Quantity="1" Sideboard="false" Name="Path to Exile" Annotation="0" />
+  <Cards CatID="39734" Quantity="1" Sideboard="false" Name="Phyrexian Metamorph" Annotation="0" />
+  <Cards CatID="58811" Quantity="1" Sideboard="false" Name="Island" Annotation="0" />
+  <Cards CatID="90885" Quantity="1" Sideboard="false" Name="Razortide Bridge" Annotation="0" />
+  <Cards CatID="68671" Quantity="1" Sideboard="false" Name="Reliquary Tower" Annotation="0" />
+  <Cards CatID="28463" Quantity="1" Sideboard="false" Name="Rings of Brighthearth" Annotation="0" />
+  <Cards CatID="64888" Quantity="1" Sideboard="false" Name="Scavenger Grounds" Annotation="0" />
+  <Cards CatID="27588" Quantity="1" Sideboard="false" Name="Sculpting Steel" Annotation="0" />
+  <Cards CatID="20017" Quantity="1" Sideboard="false" Name="Seat of the Synod" Annotation="0" />
+  <Cards CatID="72862" Quantity="1" Sideboard="false" Name="Secluded Steppe" Annotation="0" />
+  <Cards CatID="58531" Quantity="1" Sideboard="false" Name="Shambling Vent" Annotation="0" />
+  <Cards CatID="20551" Quantity="1" Sideboard="false" Name="Skullclamp" Annotation="0" />
+  <Cards CatID="92378" Quantity="1" Sideboard="false" Name="Sol Ring" Annotation="0" />
+  <Cards CatID="38353" Quantity="1" Sideboard="false" Name="Stoic Rebuttal" Annotation="0" />
+  <Cards CatID="58659" Quantity="1" Sideboard="false" Name="Sunken Hollow" Annotation="0" />
+  <Cards CatID="29479" Quantity="1" Sideboard="false" Name="Sunken Ruins" Annotation="0" />
+  <Cards CatID="9631" Quantity="1" Sideboard="false" Name="Counterspell" Annotation="0" />
+  <Cards CatID="26660" Quantity="1" Sideboard="false" Name="Sword of the Meek" Annotation="0" />
+  <Cards CatID="92098" Quantity="1" Sideboard="false" Name="Swords to Plowshares" Annotation="0" />
+  <Cards CatID="19679" Quantity="1" Sideboard="false" Name="Talisman of Dominance" Annotation="0" />
+  <Cards CatID="72838" Quantity="1" Sideboard="false" Name="Talisman of Hierarchy" Annotation="0" />
+  <Cards CatID="79614" Quantity="1" Sideboard="false" Name="Temple of Deceit" Annotation="0" />
+  <Cards CatID="79616" Quantity="1" Sideboard="false" Name="Temple of Enlightenment" Annotation="0" />
+  <Cards CatID="81737" Quantity="1" Sideboard="false" Name="Temple of Silence" Annotation="0" />
+  <Cards CatID="79270" Quantity="1" Sideboard="false" Name="Thassa's Oracle" Annotation="0" />
+  <Cards CatID="19705" Quantity="1" Sideboard="false" Name="Thirst for Knowledge" Annotation="0" />
+  <Cards CatID="39501" Quantity="1" Sideboard="false" Name="Thopter Assembly" Annotation="0" />
+  <Cards CatID="32420" Quantity="1" Sideboard="false" Name="Thopter Foundry" Annotation="0" />
+  <Cards CatID="19787" Quantity="1" Sideboard="false" Name="Thoughtcast" Annotation="0" />
+  <Cards CatID="32488" Quantity="1" Sideboard="false" Name="Time Sieve" Annotation="0" />
+  <Cards CatID="71610" Quantity="1" Sideboard="false" Name="Ugin, the Ineffable" Annotation="0" />
+  <Cards CatID="27438" Quantity="1" Sideboard="false" Name="Underground River" Annotation="0" />
+  <Cards CatID="22933" Quantity="1" Sideboard="false" Name="Urza's Mine" Annotation="0" />
+  <Cards CatID="22781" Quantity="1" Sideboard="false" Name="Urza's Power Plant" Annotation="0" />
+  <Cards CatID="22779" Quantity="1" Sideboard="false" Name="Urza's Tower" Annotation="0" />
+  <Cards CatID="20019" Quantity="1" Sideboard="false" Name="Vault of Whispers" Annotation="0" />
+  <Cards CatID="91015" Quantity="1" Sideboard="false" Name="Vindicate" Annotation="0" />
+  <Cards CatID="37308" Quantity="1" Sideboard="false" Name="Voltaic Key" Annotation="0" />
+  <Cards CatID="87997" Quantity="1" Sideboard="false" Name="Windfall" Annotation="0" />
+  <Cards CatID="27444" Quantity="1" Sideboard="false" Name="Wrath of God" Annotation="0" />
+  <Cards CatID="31203" Quantity="1" Sideboard="true" Name="Sharuum the Hegemon" Annotation="16777728" />
+</Deck>

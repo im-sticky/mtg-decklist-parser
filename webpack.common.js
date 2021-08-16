@@ -7,7 +7,7 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: {
-      name: 'decklist',
+      name: 'MTGParser',
       type: 'umd',
     },
   },

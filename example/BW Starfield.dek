@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deck xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NetDeckID>0</NetDeckID>
+  <PreconstructedDeckID>0</PreconstructedDeckID>
+  <Cards CatID="78622" Quantity="1" Sideboard="false" Name="Castle Ardenvale" Annotation="0" />
+  <Cards CatID="78628" Quantity="1" Sideboard="false" Name="Castle Locthwain" Annotation="0" />
+  <Cards CatID="57934" Quantity="4" Sideboard="false" Name="Demonic Pact" Annotation="0" />
+  <Cards CatID="78518" Quantity="4" Sideboard="false" Name="Doom Foretold" Annotation="0" />
+  <Cards CatID="79306" Quantity="1" Sideboard="false" Name="Elspeth's Nightmare" Annotation="0" />
+  <Cards CatID="71342" Quantity="1" Sideboard="false" Name="Final Payment" Annotation="0" />
+  <Cards CatID="79156" Quantity="3" Sideboard="false" Name="Flicker of Fate" Annotation="0" />
+  <Cards CatID="67947" Quantity="3" Sideboard="false" Name="Isolated Chapel" Annotation="0" />
+  <Cards CatID="72024" Quantity="2" Sideboard="false" Name="Oath of Kaya" Annotation="0" />
+  <Cards CatID="58796" Quantity="6" Sideboard="false" Name="Swamp" Annotation="0" />
+  <Cards CatID="58531" Quantity="3" Sideboard="false" Name="Shambling Vent" Annotation="0" />
+  <Cards CatID="57860" Quantity="2" Sideboard="false" Name="Starfield of Nyx" Annotation="0" />
+  <Cards CatID="79134" Quantity="4" Sideboard="false" Name="The Birth of Meletis" Annotation="0" />
+  <Cards CatID="79358" Quantity="4" Sideboard="false" Name="Treacherous Blessing" Annotation="0" />
+  <Cards CatID="63828" Quantity="3" Sideboard="false" Name="Trial of Ambition" Annotation="0" />
+  <Cards CatID="34874" Quantity="5" Sideboard="false" Name="Plains" Annotation="0" />
+  <Cards CatID="23755" Quantity="4" Sideboard="false" Name="Godless Shrine" Annotation="0" />
+  <Cards CatID="79298" Quantity="1" Sideboard="false" Name="Cling to Dust" Annotation="0" />
+  <Cards CatID="49181" Quantity="2" Sideboard="false" Name="Duress" Annotation="0" />
+  <Cards CatID="78308" Quantity="2" Sideboard="false" Name="Murderous Rider" Annotation="0" />
+  <Cards CatID="39956" Quantity="2" Sideboard="false" Name="Despise" Annotation="0" />
+  <Cards CatID="42314" Quantity="2" Sideboard="false" Name="Dead Weight" Annotation="0" />
+  <Cards CatID="46741" Quantity="1" Sideboard="true" Name="Underworld Connections" Annotation="0" />
+  <Cards CatID="63828" Quantity="1" Sideboard="true" Name="Trial of Ambition" Annotation="0" />
+  <Cards CatID="79130" Quantity="2" Sideboard="true" Name="Archon of Sun's Grace" Annotation="0" />
+  <Cards CatID="65522" Quantity="1" Sideboard="true" Name="Sorcerous Spyglass" Annotation="0" />
+  <Cards CatID="71374" Quantity="2" Sideboard="true" Name="Kaya's Wrath" Annotation="0" />
+  <Cards CatID="62689" Quantity="2" Sideboard="true" Name="Fatal Push" Annotation="0" />
+  <Cards CatID="79568" Quantity="2" Sideboard="true" Name="Kunoros, Hound of Athreos" Annotation="0" />
+  <Cards CatID="79290" Quantity="1" Sideboard="true" Name="Agonizing Remorse" Annotation="0" />
+  <Cards CatID="72024" Quantity="1" Sideboard="true" Name="Oath of Kaya" Annotation="0" />
+  <Cards CatID="50604" Quantity="2" Sideboard="true" Name="Glare of Heresy" Annotation="0" />
+</Deck>

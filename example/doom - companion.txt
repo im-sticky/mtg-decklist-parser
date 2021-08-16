@@ -1,0 +1,40 @@
+Companion
+1 Yorion, Sky Nomad (IKO) 232
+
+Deck
+4 Doom Foretold (ELD) 187
+5 Swamp (ELD) 261
+5 Plains (ELD) 253
+3 Skyclave Apparition (ZNR) 39
+4 Lithoform Blight (ZNR) 109
+4 Oath of Kaya (WAR) 209
+4 Treacherous Blessing (THB) 117
+3 Yorion, Sky Nomad (IKO) 232
+4 Trial of Ambition (AKR) 130
+3 Thoughtseize (AKR) 127
+3 Castle Ardenvale (ELD) 238
+2 Extinction Event (IKO) 88
+2 Skyclave Cleric (ZNR) 40
+4 Demonic Pact (AKR) 99
+2 Vanishing Verse (STX) 244
+4 The Birth of Meletis (THB) 5
+4 Isolated Chapel (DAR) 241
+4 Godless Shrine (RNA) 248
+4 Brightclimb Pathway (ZNR) 259
+4 Fabled Passage (M21) 246
+2 Emeria's Call (ZNR) 12
+2 Indatha Triome (IKO) 248
+3 Acquisitions Expert (ZNR) 89
+1 Elderfang Disciple (KHM) 93
+
+Sideboard
+1 Thoughtseize (AKR) 127
+2 Fatal Push (KLR) 84
+2 Soul-Guide Lantern (THB) 237
+1 Mazemind Tome (M21) 232
+1 Yorion, Sky Nomad (IKO) 232
+1 Soul-Guide Lantern (THB) 237
+3 Mazemind Tome (M21) 232
+2 Doomskar (KHM) 9
+1 Skyclave Apparition (ZNR) 39
+1 Elderfang Disciple (KHM) 93

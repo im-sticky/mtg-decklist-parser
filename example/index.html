@@ -24,16 +24,19 @@
         height: 100%;
       }
 
-      .input {
+      .input,
+      .output {
         width: 50%;
       }
 
       .output {
-        color: green;
+        overflow: auto;
+        margin: 0;
+        border: 1px solid red;
       }
 
-      .error {
-        color: red;
+      .valid {
+        border: 1px solid green;
       }
     </style>
   </head>
@@ -42,56 +45,57 @@
       <div class="container">
         <textarea class="input">
 Companion
-1 Jegantha, the Wellspring (IKO) 222
+1 Yorion, Sky Nomad (IKO) 232
 
 Deck
-2 Cragcrown Pathway (ZNR) 261
-3 Stomping Ground (RNA) 259
-2 Claim the Firstborn (ELD) 118
-4 Overgrown Tomb (GRN) 253
-4 Gilded Goose (ELD) 160
-1 Scorching Dragonfire (ELD) 139
-4 Mayhem Devil (WAR) 204
-1 Phyrexian Tower (JMP) 493
-4 Trail of Crumbs (ELD) 179
-2 Woe Strider (THB) 123
-4 Witch's Oven (ELD) 237
-4 Blood Crypt (RNA) 245
-1 Darkbore Pathway (KHM) 254
-2 Swamp (ELD) 261
-4 Cauldron Familiar (ELD) 81
+4 Doom Foretold (ELD) 187
+5 Swamp (ELD) 261
+5 Plains (ELD) 253
+3 Skyclave Apparition (ZNR) 39
+4 Lithoform Blight (ZNR) 109
+4 Oath of Kaya (WAR) 209
+4 Treacherous Blessing (THB) 117
+3 Yorion, Sky Nomad (IKO) 232
+4 Trial of Ambition (AKR) 130
+3 Thoughtseize (AKR) 127
+3 Castle Ardenvale (ELD) 238
+2 Extinction Event (IKO) 88
+2 Skyclave Cleric (ZNR) 40
+4 Demonic Pact (AKR) 99
+2 Vanishing Verse (STX) 244
+4 The Birth of Meletis (THB) 5
+4 Isolated Chapel (DAR) 241
+4 Godless Shrine (RNA) 248
+4 Brightclimb Pathway (ZNR) 259
 4 Fabled Passage (M21) 246
-1 Mountain (ELD) 263
-2 Forest (ZNR) 280
-4 Korvold, Fae-Cursed King (ELD) 329
-1 Blightstep Pathway (KHM) 252
-2 Binding the Old Gods (KHM) 206
-2 Thoughtseize (AKR) 127
-2 Fatal Push (KLR) 84
+2 Emeria's Call (ZNR) 12
+2 Indatha Triome (IKO) 248
+3 Acquisitions Expert (ZNR) 89
+1 Elderfang Disciple (KHM) 93
 
 Sideboard
-2 Forced Landing (WAR) 161
-2 Klothys, God of Destiny (THB) 220
-2 Thoughtseize (AKR) 127
-1 Liliana's Defeat (AKR) 112
-1 Jegantha, the Wellspring (IKO) 222
-1 Binding the Old Gods (KHM) 206
+1 Thoughtseize (AKR) 127
+2 Fatal Push (KLR) 84
 2 Soul-Guide Lantern (THB) 237
-2 Duress (M21) 96
-1 Fatal Push (KLR) 84
-1 Doom Blade (STA) 28
+1 Mazemind Tome (M21) 232
+1 Yorion, Sky Nomad (IKO) 232
+1 Soul-Guide Lantern (THB) 237
+3 Mazemind Tome (M21) 232
+2 Doomskar (KHM) 9
+1 Skyclave Apparition (ZNR) 39
+1 Elderfang Disciple (KHM) 93
 </textarea>
 
-        <div class="output"></div>
+        <pre class="output"></pre>
       </div>
 
       <script src="./index.js"></script>
       <script type="text/javascript">
         function test(value) {
-          let result = decklist.parse(value);
+          let result = new MTGParser.Decklist(value);
 
-          document.querySelector('.output').innerHTML = result ? 'Parsed decklist successfully' : 'Could not parse decklist';
-          document.querySelector('.output').classList.toggle('error', !result);
+          document.querySelector('.output').innerHTML = JSON.stringify(result, undefined, 2);
+          document.querySelector('.output').classList.toggle('valid', result.valid);
         }
 
         document.querySelector('.input').addEventListener('change', e => test(e.target.value));
