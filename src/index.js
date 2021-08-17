@@ -35,9 +35,11 @@ export class Decklist {
         } else if (line.match(_companionRegex)) {
           currentSection = SECTIONS.companion;
           return;
-        } else if (line.match(_deckRegex) || currentSection === SECTIONS.unstarted) {
+        } else if (line.match(_deckRegex)) {
           currentSection = SECTIONS.deck;
           return;
+        } else if (currentSection === SECTIONS.unstarted && line.length > 0) {
+          currentSection = SECTIONS.deck;
         } else if (line.match(_sideboardRegex) || currentSection === SECTIONS.deck && line.length === 0) {
           currentSection = SECTIONS.sideboard;
           return;
