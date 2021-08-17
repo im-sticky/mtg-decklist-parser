@@ -1,6 +1,6 @@
 {
   "name": "mtg-decklist-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for parsing MTG Online & Arena decklists",
   "main": "dist/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "url": "https://github.com/im-sticky/mtg-decklist-parser/issues"
   },
   "homepage": "https://github.com/im-sticky/mtg-decklist-parser#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "babel-loader": "^8.2.2",
