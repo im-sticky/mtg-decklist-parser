@@ -51,6 +51,15 @@ _Note: This is used internally and not publicly exposed._
 | collectors | Number | True | The collector number of the card within the specific set. |
 | mtgoID | String | True | The ID of the card specific to MTG Online. |
 
+### autoParse
+
+Method for automatically parsing an MTGO or MTGA decklist.
+
+```
+@param  rawInput String        A decklist string to be parsed.
+@return          Decklist|MTGO Either a Decklist or MTGO class object.
+```
+
 ### Dev setup
 
 To get the project up and running with a test page and hot reloading, clone the repo and run the following:
