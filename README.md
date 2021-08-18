@@ -3,7 +3,7 @@ Library for parsing MTG Online &amp; Arena decklists
 
 ## Installation
 
-The library is available as a package on npm. Currently there is no static location for a production file to hotlink to.
+The library is available as a package on [npm](https://www.npmjs.com/package/mtg-decklist-parser). Currently there is no static location for a production file to hotlink to.
 
 ```
 npm install mtg-decklist-parser --save
