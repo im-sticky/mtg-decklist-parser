@@ -4,15 +4,18 @@ const _setRegex = /(\(|\[)(.+)(\)|\])/;
 
 export class CardModel {
   constructor(rawInput) {
-    const {amount, name, set, collectors} = this.parse(rawInput);
+    const {amount, name, set, collectors, mtgoID} = typeof rawInput === 'string' ?
+      this.parseString(rawInput) :
+      this.parseObject(rawInput);
 
     this.name = name;
     this.amount = amount;
     this.set = set;
     this.collectors = collectors;
+    this.mtgoID = mtgoID;
   }
 
-  parse(rawInput) {
+  parseString(rawInput) {
     rawInput.trim();
 
     const name = rawInput.replace(_amountRegex, '').replace(_setRegex, '').replace(_collectorRegex, '').trim();
@@ -27,5 +30,13 @@ export class CardModel {
       set: set ? set[2] : undefined,
       collectors: collectors ? parseInt(collectors) : undefined,
     }
+  }
+
+  parseObject(rawInput) {
+    return {
+      name: rawInput.Name,
+      amount: parseInt(rawInput.Quantity),
+      mtgoID: rawInput.CatID,
+    };
   }
 }

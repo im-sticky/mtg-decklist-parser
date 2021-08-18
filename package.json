@@ -34,5 +34,8 @@
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^4.0.0-beta.0",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0"
   }
 }

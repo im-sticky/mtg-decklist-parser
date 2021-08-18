@@ -92,7 +92,7 @@ Sideboard
       <script src="./index.js"></script>
       <script type="text/javascript">
         function test(value) {
-          let result = new MTGParser.Decklist(value);
+          let result = MTGParser.autoParse(value);
 
           document.querySelector('.output').innerHTML = JSON.stringify(result, undefined, 2);
           document.querySelector('.output').classList.toggle('valid', result.valid);
