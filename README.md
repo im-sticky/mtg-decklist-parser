@@ -25,9 +25,11 @@ let parsed = new MTGParser.Decklist(rawString);
 
 ## API documentation
 
-Decklists to be given to the parser follow the conventional newline separated format that can be found on many popular sites such as [MTGGoldfish](https://www.mtggoldfish.com/). Supports lists exported from MTG Arena. There are multiple example decklists in the [example folder](example).
+Decklists to be given to the parser follow the conventional newline separated format that can be found on many popular sites such as [MTGGoldfish](https://www.mtggoldfish.com/). Supports lists exported from MTG Arena and MTGO `.dek` files. There are multiple example decklists in the [example folder](example).
 
-### Decklist
+### Decklist & MTGO
+
+Both the `Decklist` and `MTGO` classes share the same properties. Both expect strings passed into their constructor.
 
 | Property | Type | Description |
 |---|---|---|
@@ -46,7 +48,8 @@ _Note: This is used internally and not publicly exposed._
 | name | String | False | The name of the card specified within the deck. |
 | amount | Number | False | The amount of the card specified within the deck. |
 | set | String | True | The set code of the card. |
-| collectors | Number | True | The collector number of card within the specific set. |
+| collectors | Number | True | The collector number of the card within the specific set. |
+| mtgoID | String | True | The ID of the card specific to MTG Online. |
 
 ### Dev setup
 
